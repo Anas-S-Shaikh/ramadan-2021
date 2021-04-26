@@ -4,17 +4,19 @@ import { Typography, Layout } from "antd";
 import Table from "../../Components/Table-List/Table.component";
 import MenuList from "../../Components/Menu-List/MenuList.component";
 import "./Homepage.style.scss";
-import Dashboard from "../../Components/Dashboard/Dashboard.component";
+import Dashboard from "../Dashboard/Dashboard.component";
 
 const { Content, Footer, Header, Sider } = Layout;
 const { Title } = Typography;
 
 const Homepage = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
+
   const onCollapse = (collapsed) => {
-    // console.log(collapsed);
+    console.log(collapsed);
     setCollapsed(collapsed);
   };
+ 
   return (
     <Layout>
       <Sider
@@ -25,7 +27,7 @@ const Homepage = () => {
         collapsed={collapsed}
         onCollapse={onCollapse}
       >
-        <MenuList />
+        <MenuList handleClick = {onCollapse}/>
       </Sider>
       <Layout className="layout">
         <Header
