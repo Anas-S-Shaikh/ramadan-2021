@@ -1,0 +1,11 @@
+.countdown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+}

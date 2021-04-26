@@ -1,0 +1,18 @@
+.table-container {
+  margin: 3% 10%;
+  // border: 2px solid violet;
+  @media screen and (max-width:1000px) {
+    margin: 7% 4%;
+    
+  }
+  table {
+    .fri {
+      background-color: rgba(173, 2, 2, 0.562);
+      // border: 2px solid red;
+      
+    }
+    .current {
+      background-color: rgb(9, 114, 9);
+    }
+  }
+}
