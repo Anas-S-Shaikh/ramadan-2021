@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Row, Col, } from "antd";
+import { Row, Col } from "antd";
 import { dataSource } from "../../Components/Table-List/dataSource";
 import Countdown from "../../Components/Countdown/Countdown.component";
 import CardList from "../../Components/CardList/CardList.component";
 import TimingCards from "../../Components/TimingCards/TimingCards.component";
 import "./Dashboard.style.scss";
 const now = new Date();
-// now.setHours(4);
+// now.setHours(4, 40);
 
 const getCurrentData = () => {
   let currentDetails = {};
@@ -48,7 +48,7 @@ const Dashboard = () => {
 
       const iftarTime = new Date().setHours(
         parseInt(currentRoza.iftar.slice(0, 1)) + 12,
-        parseInt(currentRoza.iftar.slice(2, 4)) + 12,
+        parseInt(currentRoza.iftar.slice(2, 4)),
         0
       );
 
@@ -75,8 +75,7 @@ const Dashboard = () => {
         <CardList roza={currentRoza.roza} />
       </Col>
       <Col span={24}>
-        <TimingCards sehr={currentRoza.sehr} iftar={currentRoza.iftar}/>
-        
+        <TimingCards sehr={currentRoza.sehr} iftar={currentRoza.iftar} />
       </Col>
       <Col span={24}>
         {counter ? (

@@ -13,7 +13,7 @@ const Homepage = () => {
   const [collapsed, setCollapsed] = useState(true);
 
   const onCollapse = (collapsed) => {
-    console.log(collapsed);
+    // console.log(collapsed);
     setCollapsed(collapsed);
   };
  
@@ -42,7 +42,7 @@ const Homepage = () => {
             Ramdan 2021
           </Title>
         </Header>
-        <Content style={{ minHeight: "80vh" }}>
+        <Content style={{ minHeight: "80vh" , overflow:"hidden"}}>
           <Switch>
             <Route exact path="/" component={Dashboard} />
             <Route exact path="/table" component={Table} />

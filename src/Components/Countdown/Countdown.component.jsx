@@ -11,7 +11,7 @@ const { Countdown } = Statistic;
 const CountdownComponent = (props) => {
   return (
     <div className="countdown">
-      <Countdown title={props.title} value={props.deadline} />
+      <Countdown valueStyle={{fontSize:'4rem'}} title={props.title} value={props.deadline} />
     </div>
   );
 };
