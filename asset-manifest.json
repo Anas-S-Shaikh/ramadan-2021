@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ramadan-2021/static/css/main.e6000945.chunk.css",
-    "main.js": "/ramadan-2021/static/js/main.e38ac453.chunk.js",
-    "main.js.map": "/ramadan-2021/static/js/main.e38ac453.chunk.js.map",
+    "main.js": "/ramadan-2021/static/js/main.009de6d4.chunk.js",
+    "main.js.map": "/ramadan-2021/static/js/main.009de6d4.chunk.js.map",
     "runtime-main.js": "/ramadan-2021/static/js/runtime-main.24654b79.js",
     "runtime-main.js.map": "/ramadan-2021/static/js/runtime-main.24654b79.js.map",
     "static/css/2.25178bad.chunk.css": "/ramadan-2021/static/css/2.25178bad.chunk.css",
-    "static/js/2.6b1f6898.chunk.js": "/ramadan-2021/static/js/2.6b1f6898.chunk.js",
-    "static/js/2.6b1f6898.chunk.js.map": "/ramadan-2021/static/js/2.6b1f6898.chunk.js.map",
+    "static/js/2.318de31b.chunk.js": "/ramadan-2021/static/js/2.318de31b.chunk.js",
+    "static/js/2.318de31b.chunk.js.map": "/ramadan-2021/static/js/2.318de31b.chunk.js.map",
     "index.html": "/ramadan-2021/index.html",
     "static/css/2.25178bad.chunk.css.map": "/ramadan-2021/static/css/2.25178bad.chunk.css.map",
     "static/css/main.e6000945.chunk.css.map": "/ramadan-2021/static/css/main.e6000945.chunk.css.map",
-    "static/js/2.6b1f6898.chunk.js.LICENSE.txt": "/ramadan-2021/static/js/2.6b1f6898.chunk.js.LICENSE.txt"
+    "static/js/2.318de31b.chunk.js.LICENSE.txt": "/ramadan-2021/static/js/2.318de31b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.24654b79.js",
     "static/css/2.25178bad.chunk.css",
-    "static/js/2.6b1f6898.chunk.js",
+    "static/js/2.318de31b.chunk.js",
     "static/css/main.e6000945.chunk.css",
-    "static/js/main.e38ac453.chunk.js"
+    "static/js/main.009de6d4.chunk.js"
   ]
 }
