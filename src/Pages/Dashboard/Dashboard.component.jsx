@@ -6,7 +6,7 @@ import CardList from "../../Components/CardList/CardList.component";
 import TimingCards from "../../Components/TimingCards/TimingCards.component";
 import "./Dashboard.style.scss";
 const now = new Date();
-// now.setHours(4, 40);
+// now.setHours(20);
 
 const getCurrentData = () => {
   let currentDetails = {};
@@ -81,7 +81,12 @@ const Dashboard = () => {
         {counter ? (
           <Countdown title={title} deadline={deadline} />
         ) : (
-          <h1>Countdown Will be shown here!</h1>
+          <h1 style={{ textAlign: "center" }}>
+            Hope you were fasting today! <br />{" "}
+            <small style={{ fontSize: "0.8rem", color: "#7e7e7e" }}>
+              (Countdown will be shown here)
+            </small>
+          </h1>
         )}
       </Col>
     </Row>

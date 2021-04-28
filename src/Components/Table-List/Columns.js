@@ -14,6 +14,26 @@ export const columns = [
     dataIndex: "day",
     filters: [
       {
+        text: "Sun",
+        value: "Sun",
+      },
+      {
+        text: "Mon",
+        value: "Mon",
+      },
+      {
+        text: "Tue",
+        value: "Tue",
+      },
+      {
+        text: "Wed",
+        value: "Wed",
+      },
+      {
+        text: "Thu",
+        value: "Thu",
+      },
+      {
         text: "Fri",
         value: "Fri",
       },
@@ -21,6 +41,7 @@ export const columns = [
         text: "Sat",
         value: "Sat",
       },
+      
     ],
     key: "day",
     onFilter: (value, record) => record.day===value,

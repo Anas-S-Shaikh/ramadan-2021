@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
 
-import { UserOutlined, VideoCameraOutlined } from "@ant-design/icons";
+import { DashboardOutlined, TableOutlined } from "@ant-design/icons";
 
 const MenuList = (props) => {
   return (
@@ -12,7 +12,7 @@ const MenuList = (props) => {
           props.handleClick(true);
         }}
         key="1"
-        icon={<UserOutlined />}
+        icon={<DashboardOutlined />}
       >
         <Link to="/">Dashboard</Link>
       </Menu.Item>
@@ -21,7 +21,7 @@ const MenuList = (props) => {
           props.handleClick(true);
         }}
         key="2"
-        icon={<VideoCameraOutlined />}
+        icon={<TableOutlined />}
       >
         <Link to="/table">Time-Table</Link>
       </Menu.Item>

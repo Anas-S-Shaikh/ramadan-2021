@@ -25,12 +25,15 @@ const CardList = (props) => {
       <Card>
         <Card.Grid hoverable={false} style={gridStyle}>
           <h4> {props.roza}</h4>
+          <small>Roza</small>
         </Card.Grid>
         <Card.Grid hoverable={false} style={gridStyle}>
           <h4>{time}</h4>
+          <small>Time</small>
         </Card.Grid>
         <Card.Grid hoverable={false} style={gridStyle}>
           <h4> {new Date().toLocaleDateString()}</h4>
+          <small>Date</small>
         </Card.Grid>
       </Card>
     </div>

@@ -3,8 +3,13 @@ import { Table } from "antd";
 import { columns } from "./Columns";
 import { dataSource } from "./dataSource";
 import "./Table.style.scss";
+const now = new Date();
 const TableList = () => {
-  const now = new Date();
+  // const [defCurrent, setDefCurrent] = useState(0);
+  // useEffect(()=>{
+
+  //   setDefCurrent((pageDecider()));
+  // });
   const firstPage = new Date("2021-04-23");
   const secondPage = new Date("2021-05-03");
 
@@ -20,6 +25,7 @@ const TableList = () => {
       return 3;
     }
   }
+  // setDefCurrent(pageDecider());
 
   function onChange(pagination, filters, sorter, extra) {
     // console.log("filter", filters);
