@@ -81,7 +81,7 @@ const Dashboard = () => {
         {counter ? (
           <Countdown title={title} deadline={deadline} />
         ) : (
-          <h1>Happy Ramadan</h1>
+          <h1>Countdown Will be shown here!</h1>
         )}
       </Col>
     </Row>
