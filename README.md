@@ -1,5 +1,6 @@
 ## Ramadan 2021
 Created with the purpose to provide information about ramadan 2021
+[Check it out](https://anas-s-shaikh.github.io/ramadan-2021/)
 
 ---
 ### Features
